@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%; /* only width not height as we are not sure how long the height of the page is */
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#nav {
+  outline: 2px solid red;
+  width: 100%;
+  padding: 1.7em 2.3em;
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav a {
+  color: #fff;
+  text-decoration: none;
+}
